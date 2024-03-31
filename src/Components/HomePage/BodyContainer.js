@@ -1,11 +1,10 @@
 import React from 'react'
-import Sidebar from './Sidebar'
 import BodyBtnList from './BodyBtnList'
 import VideoCardContainer from './VideoCardContainer'
 
 const BodyContainer = () => {
   return (
-    <div>
+    <div className='m-3'>
       <BodyBtnList />
       <VideoCardContainer />
     </div>

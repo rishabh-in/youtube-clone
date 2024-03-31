@@ -4,10 +4,10 @@ import BodyContainer from './BodyContainer'
 
 const HomePageContainer = () => {
   return (
-    <Fragment>
+    <div className="flex">
       <Sidebar />
       <BodyContainer />
-    </Fragment>
+    </div>
   )
 }
 
