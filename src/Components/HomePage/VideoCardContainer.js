@@ -1,5 +1,5 @@
 import React from 'react'
-import { useGetVideosQuery } from '../../redux/apiSlice.js/apiSlice'
+import { useGetVideosQuery } from '../../apiSlice'
 import VideoCard from './VideoCard';
 
 const VideoCardContainer = () => {
