@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from "./App";
 import HomePage from "./Pages/HomePage";
 import PlayerContainer from "./Components/VideoPage/PlayerContainer";
+import WatchPage from "./Pages/WatchPage";
 
 const appRouter = createBrowserRouter([
   {
@@ -14,8 +15,8 @@ const appRouter = createBrowserRouter([
         element: <HomePage />
       },
       {
-        path: "/video/:id", 
-        element: <PlayerContainer />
+        path: "/watch", 
+        element: <WatchPage />
       }
     ]
   }
